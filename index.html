@@ -1,10 +1,140 @@
-!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <title></title>
-</head>
-<body>
 
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rsschool-cv-html</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container-centered">
+    <div class="two-columns">
+      <div class="left-column">
+        <header>
+          <img src="./avarar.jpg" alt="Profile photo" width="204" height="204">
+          <h1>Irina Moroz </h1>
+          <h2>Junior Frontend Developer</h2>
+        </header>
+        <main>
+          <section class="contacts">
+            <h3>Contacts</h3>
+            <ul>
+              <li>
+                <img src="./phone.png" alt="Phone Icon" width="30" height="30">
+                <p>+375 25 639 40 41</p>
+              </li>
+              <li>
+                <img src="./mail.png" alt="Email Icon" width="30" height="30">
+                <p>lonitkoira@gmail.com</p>
+              </li>
+              <li>
+                <img src="./instagram (2).png" alt="Instagram Icon" width="30" height="30">
+                <p>@lonitko</p>
+            </ul>
+          </section>
+          <section class="skills">
+            <h3>Skills</h3>
+            <ul>
+              <li>HTML5, CSS3</li>
+              <li>Git, GitHub</li>
+              <li>VS Code, IntelliJ IDEA</li>
+              <li>Adobe Photoshop</li>
+            </ul>
+          </section>
+          <section class="languages">
+            <h3>Languages</h3>
+            <ul>
+              <li>
+                <p class="language-name">English</p>
+                <p>Pre-Intermediate</p>
+              </li>
+              <li>
+                <p class="language-name">Russian</p>
+                <p>Native</p>
+              </li>
+              <li>
+                <p class="language-name">Belarusian</p>
+                <p>Basic</p>
+              </li>
+            </ul>
+          </section>
+        </main>
+      </div>
+      <aside class="right-column">
+        <section class="about-myself">
+          <div class="sub-header">
+            <img src="./myself.png" alt="About Myself Icon" width="70" height="70">
+            <h3>About Myself</h3>
+          </div>
+          
+          <p>I am 26. I am originally from Belarus, I live in Minsk. 
+            I work  a junior research, 
+            for institute at the Joint Energy and Nuclear Research Sosny.</p>
+            <p>I'm a fast learner, very determined and determined. 
+              I'm a team player.</p>
+          <p>I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a
+            proficient Frontend Developer.</p>
+        </section>
+        <section class="education">
+          <div class="sub-header">
+            <img src="./education.png" alt="Education Icon" width="30" height="30">
+            <h3>Education</h3>
+          </div>
+          <p><strong>International Sakharov Environmental Institute of Belarusian State University</strong></p>
+          <p>Environmental monitoring Faculty</p>
+          <p>Years: 2013 - 2018</p>
+          <p>Specialization:Nuclear and radiation safety</p>
+          <p><strong>Graduate School of the National Academy of Sciences of Belarus</strong></p>
+          <p>Master's Program</p>
+          <p>Years: 2018 - 2019</p>
+          <p>Specialization: physics</p>
+        </section>
+         
+        </section>
+        <section class="code-example">
+          <div class="sub-header">
+            <img src="./cod.png" alt="Code Icon" width="35" height="30">
+            <h3>Code example</h3>
+          </div>
+          <p><strong>Determine in which register the n-th character 
+            of the string is written:</strong> GDetermine in which register the n-th character of the string is written
+            Write a function isUpperCase (str, character) 
+            that determines in which case the strings of the string are
+             written in a given position. If it is displayed in 
+             the register - true, if in the lower one - false.</p>
+          <pre>
+            <code>
+
+  function isUpperCase(str, index) {
+      return str.charAt(index).toUpperCase() === str.charAt(index);
+  }
+  
+  document.writeln(isUpperCase('tasks JavaScript', 6)); // true
+  
+  
+}</code>
+          </pre>
+        </section>
+      </aside>
+    </div>
+    <footer>
+      <a class="my-github" href="https://github.com/lonitko">
+        <p>My GitHub</p>
+      </a>
+      <p>© 2022</p>
+      <a href="https://rs.school/js/">
+        <img src="./rsschool.png" alt="Rsschool Icon" width="73" height="26">
+      </a>
+    </footer>
+  </div>
 </body>
+
 </html>
